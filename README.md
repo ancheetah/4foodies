@@ -1,4 +1,4 @@
-![4Foodies Logo](/img/4Foodies-logo.png = 20x20)
+![4Foodies Logo](/img/4Foodies-logo.png=20x20)
 
 # Portfolio Project Proposal
 ### By Kadeja Cordova & AJ Ancheta
