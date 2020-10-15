@@ -1,4 +1,4 @@
-![4Foodies Logo](/img/4Foodies-logo.png)
+![4Foodies Logo](/img/4Foodies-logo.png = 20x20)
 
 # Portfolio Project Proposal
 ### By Kadeja Cordova & AJ Ancheta
@@ -75,7 +75,7 @@ https://naturallyella.com/ - Recipe Index
 
 
 ### References
-*Masonry Grid:*
+**Masonry Grid:**
 https://codepen.io/artursden/pen/dRWeBw
 https://getbootstrap.com/docs/4.0/components/card/#card-columns
 
