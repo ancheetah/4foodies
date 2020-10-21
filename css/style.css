@@ -1,0 +1,16 @@
+.navbar {
+    font-family:'Maven Pro', Arial, sans-serif ;
+}
+
+.navbar-dark {
+    background-color: #f5f0f7;
+}
+
+.h2 {
+    font-family: "Nanum Gothic Coding", "courier-new", monospace;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
+
