@@ -2,7 +2,7 @@
   "name": "4foodies",
   "version": "1.0.0",
   "description": "4foodies Blog",
-  "main": "index.js",
+  "main": "index.html",
   "directories": {
     "doc": "docs"
   },
