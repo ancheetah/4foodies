@@ -1,8 +1,13 @@
+/* 4Foodies Stylesheet */
+
 body {
     font-family: 'Nanum Gothic Coding', courier-new, monospace;
 }
 
-.navbar,h1,h2,h3 {
+.navbar,
+h1,
+h2,
+h3 {
     font-family: 'Maven Pro', Arial, sans-serif;
 }
 
@@ -17,37 +22,47 @@ header hr {
 }
 
 /* Navbar */
-.navbar {
-    /* text-transform: uppercase; */
+.events-btn {
+    background: black;
+    border-color: black;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Icons */
+.fa {
+    color: black;
 }
 
 /* Footer Styling */
 .site-footer a {
     text-decoration: none;
     color: white;
-  }
-  
-  .site-footer {
+}
+
+.site-footer {
     background: black;
-  }
-  
-  .footer-nav {
-    text-transform: uppercase;
+}
+
+.footer-nav {
     font-family: 'Maven Pro', Arial, sans-serif;
     font-weight: 500;
-  }
-  
-  /* Social Media Icons */
-  .fab {
+}
+
+@media (max-width: 700px) { 
+    #footerLogo, hr {
+        display: none;
+    }
+ }
+
+/* Social Media Icons */
+.fab {
     color: white;
     font-size: 1.25em;
     line-height: 1.5em;
-  }
-
-
-/* .navbar-dark {
-    background-color: #f5f0f7;
-} */
+}
 
 /* Ingredients List */
 input[type=checkbox]:checked+label.strikethrough {

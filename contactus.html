@@ -18,61 +18,79 @@
 
 <body>
 
-    <!-- Site Header -->
-    <header>
-      <div class="container-fluid">
-        <div class="row h-auto d-flex align-items-center">
-  
-          <div class="col">
-            <hr class="w-75 mr-0" />
-          </div>
-  
-          <!-- Logo -->
-          <div class="col-auto media">
-            <a href="index.html">
-              <img src="img/4Foodies-logo.png" class="image-fluid my-3" width="150" height="150" alt="4foodies logo" />
-            </a>
-          </div>
-  
-          <div class="col">
-            <hr class="w-75 ml-0" />
-          </div>
-  
-        </div>
-      </div>
-    </header>
+  <!-- Site Header -->
+  <header>
 
-  <nav class="navbar navbar-expand-sm navbar-light bg-light Align-right sticky-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">4Foodies</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/index.html"><i class="fa fa-home fa-lg"></i> Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/recipes.html"><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i>
-              Recipes</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fa fa-address-book fa-lg"></i> Contact</a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-          <a role="button" data-toggle="modal" data-target="#bookEvent"><i class="fa fa-calendar"></i> Events</a>
-        </span>
-        <a><img src="./img/4Foodies-logo.png" height="50" width="50" alt="foodiesLogo" /></a>
+    <div class="container-fluid">
+      <div class="row h-auto d-flex align-items-center">
+
+        <div class="col">
+          <hr class="w-75 mr-0" />
+        </div>
+
+        <!-- Logo -->
+        <div class="col-auto">
+          <img src="img/4Foodies-logo.png" class="image-fluid my-3" width="150" height="150" alt="4foodies logo" />
+        </div>
+
+        <div class="col">
+          <hr class="w-75 ml-0" />
+        </div>
+
       </div>
+    </div>
+
+  </header>
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-white sticky-top mb-5">
+
+    <!-- Small Logo -->
+    <a class="navbar-brand px-3" href="#">
+      <img src="img/4Foodies-logo.png" height="70" width="70" alt="4foodies logo" />
+    </a>
+
+    <!-- Hamburger Icon -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#foodiesNavbar"
+      aria-controls="foodiesNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="foodiesNavbar">
+
+      <ul class="navbar-nav ml-auto text-uppercase">
+
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="recipes.html"><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i>
+            Recipes</a>
+        </li>
+
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="contactus.html">Contact</a>
+        </li>
+
+      </ul>
+
+      <!-- <span class="navbar-text align-right">
+      <a role="button" data-toggle="modal" data-target="#bookEvent"><i class="fa fa-calendar"></i> Events</a>
+    </span> -->
+
+      <!-- Events Button -->
+      <a href="events.html"><button class="events-btn btn btn-md btn-dark text-uppercase mx-3"
+          type="button">Events</button></a>
+
     </div>
   </nav>
 
   <!-- Breadcrumbs start here -->
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="row">
       <div class="col">
         <ol class="breadcrumbs">
@@ -82,142 +100,147 @@
         <h2>Contact Us</h2>
         <hr />
       </div>
+    </div> -->
+
+  <!-- contact us starts here-->
+  <div class="row">
+    <div class="col-sm-4">
+      <h5>Our Address</h5>
+      <address>
+        222 Beaver Tail Street<br />
+        Washington, DC 20022<br />
+        U.S.A
+      </address>
     </div>
-
-    <!-- contact us starts here-->
-    <div class="row">
-      <div class="col-sm-4">
-        <h5>Our Address</h5>
-        <address>
-          222 Beaver Tail Street<br />
-          Washington, DC 20022<br />
-          U.S.A
-        </address>
-      </div>
-      <div class="col">
-        <a role="button" class="btn btn-link" href="tel:+12022224000"><i class="fa fa-phone"></i>
-          1-202-222-4000</a><br />
-        <a role="button" class="btn btn-link" href="mailto:contactus@foodies.com"><i class="fa fa-envelope-o"></i>
-          contactus@foodies.com</a>
-      </div>
+    <div class="col">
+      <a role="button" class="btn btn-link" href="tel:+12022224000"><i class="fa fa-phone"></i>
+        1-202-222-4000</a><br />
+      <a role="button" class="btn btn-link" href="mailto:contactus@foodies.com"><i class="fa fa-envelope-o"></i>
+        contactus@foodies.com</a>
     </div>
+  </div>
 
-    <!-- contact box starts here-->
-    <div class="row row-content">
-      <div class="col-12">
-        <h2>Send Us Your Feedback</h2>
-        <hr />
-      </div>
+  <!-- contact box starts here-->
+  <div class="row row-content">
+    <div class="col-12">
+      <h2>Send Us Your Feedback</h2>
+      <hr />
     </div>
+  </div>
 
-    <!--Section description-->
-    <p class="text-auto w-responsive mx-auto mb-5">
-      Liked our recipes or have suggestion? Feel free to leave your Feedback.
-    </p>
+  <!--Section description-->
+  <p class="text-auto w-responsive mx-auto mb-5">
+    Liked our recipes or have suggestion? Feel free to leave your Feedback.
+  </p>
 
-    <div class="row">
-      <!--Grid column-->
-      <div class="col-md-9 mb-md-5 mb-5">
-        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-          <!--Grid row-->
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" />
-                <label for="name" class="">Your name</label>
-              </div>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="email" name="email" class="form-control" placeholder="Your Email" />
-                <label for="email" class="">Your email</label>
-              </div>
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-
-          <!--Grid row-->
-          <div class="row">
-            <div class="col-md-12">
-              <div class="md-form mb-0">
-                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" />
-                <label for="subject" class="">Subject</label>
-              </div>
+  <div class="row">
+    <!--Grid column-->
+    <div class="col-md-9 mb-md-5 mb-5">
+      <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" />
+              <label for="name" class="">Your name</label>
             </div>
           </div>
-          <!--Grid row-->
+          <!--Grid column-->
 
-          <!--Grid row-->
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-md-12">
-              <div class="md-form">
-                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"
-                  placeholder="Type Message Here"></textarea>
-                <label for="message">Your message</label>
-              </div>
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="email" name="email" class="form-control" placeholder="Your Email" />
+              <label for="email" class="">Your email</label>
             </div>
           </div>
-          <!--Grid row-->
-        </form>
-
-        <div class="text-center text-md-left">
-          <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send Feedback</a>
+          <!--Grid column-->
         </div>
-        <div class="status"></div>
-      </div>
+        <!--Grid row-->
 
-      <!--Grid column-->
+        <!--Grid row-->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="md-form mb-0">
+              <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" />
+              <label for="subject" class="">Subject</label>
+            </div>
+          </div>
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-12">
+            <div class="md-form">
+              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"
+                placeholder="Type Message Here"></textarea>
+              <label for="message">Your message</label>
+            </div>
+          </div>
+        </div>
+        <!--Grid row-->
+      </form>
+
+      <div class="text-center text-md-left">
+        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send Feedback</a>
+      </div>
+      <div class="status"></div>
     </div>
 
-    <!--Section: Contact v.2-->
+    <!--Grid column-->
+  </div>
 
-    <!-- Site Footer -->
-    <footer>
-      <div class="site-footer container-fluid fixed-bottom">
-    
+  <!--Section: Contact v.2-->
+
+  <!-- Site Footer -->
+  <footer>
+
+    <div class="site-footer container-fluid mt-5 py-2">
+
         <!-- Links -->
-        <nav class="nav nav-justified footer-nav mt-4 d-flex align-items-center justify-content-center nav-fill">
-          <a class="nav-link" href="about.html">About</a>
-          <a class="nav-link" href="#">Recipes</a>
-          <a class="nav-link" href="#"><img href="index.html" src="img/4Foodies-logo-white.png" width="100" height="100" /></a>
-          <a class="nav-link" href="#">Events</a>
-          <a class="nav-link" href="contactus.html">Contact</a>
+        <nav class="nav nav-justified footer-nav mt-4 d-flex align-items-center justify-content-center 
+                nav-fill text-uppercase d-flex flex-column flex-sm-row">
+            <a class="nav-link mx-3" href="about.html">About</a>
+            <a class="nav-link mx-3" href="#">Recipes</a>
+            <a class="nav-link mx-3" id="footerLogo" href="#"><img src="img/4Foodies-logo-white.png" width="100"
+                    height="100" /></a>
+            <a class="nav-link mx-3" href="#">Events</a>
+            <a class="nav-link mx-3" href="contactus.html">Contact</a>
         </nav>
-    
+
         <!-- Contact Info -->
         <div class="row footer-contact mt-5">
-          <div class="col-md text-center">
-            <p class="mb-0">
-              <a href="tel:5555555555">(555) 555-5555</a> 
-              <span class="mx-2 text-white" style="font-family: Arial">|</span> 
-              <a href="mailto:info@4foodies.com">info@4foodies.com</a> 
-              </p>
-          </div>
+            <div class="col text-center">
+                <p class="mb-0">
+                    <a href="tel:5555555555">(555) 555-5555</a>
+                    <span class="mx-2 text-white" style="font-family: Arial">|</span>
+                    <a href="mailto:info@4foodies.com">info@4foodies.com</a>
+                </p>
+            </div>
         </div>
-    
+
         <!-- Social Media -->
         <div class="row footer-social mb-4">
-          <div class="col text-center mx-auto">
-            <a class="btn" href="http://instagram.com/" target="blank_"><i class="fab fa-instagram"></i></a>
-            <a class="btn" href="http://facebook.com/" target="blank_"><i class="fab fa-facebook"></i></a>
-            <a class="btn" href="http://twitter.com/" target="blank_"><i class="fab fa-twitter"></i></a>
-            <a class="btn" href="http://youtube.com/"><i class="fab fa-youtube"></i></a>
-          </div>
+            <div class="col text-center mx-auto">
+                <a class="btn" href="http://instagram.com/" target="blank_"><i class="fa fab fa-instagram"></i></a>
+                <a class="btn" href="http://facebook.com/" target="blank_"><i class="fa fab fa-facebook"></i></a>
+                <a class="btn" href="http://twitter.com/" target="blank_"><i class="fa fab fa-twitter"></i></a>
+                <a class="btn" href="http://youtube.com/"><i class="fa fab fa-youtube"></i></a>
+            </div>
         </div>
-    
-      </div>
-    </footer>
 
-    <!-- Query must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </div>
+
+</footer>
+
+
+  <!-- Bootstrap Dependencies -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
