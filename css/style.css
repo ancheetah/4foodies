@@ -17,11 +17,8 @@ header hr {
 }
 
 /* Navbar */
-.navbar-light {
-    background-color: white !important;
-}
 .navbar {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 /* Footer Styling */

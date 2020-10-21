@@ -41,59 +41,85 @@
     </div>
   </header>
 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+    <!-- <a class="navbar-brand" href="#">4Foodies</a> -->
 
-  <nav class="navbar navbar-expand-sm navbar-light bg-light align-right sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">4Foodies</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#4fNavbar"
+        aria-controls="4fNavbar" aria-expanded="false" aria-label="toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/recipes.html"><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i>
-              Recipes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contactus.html"><i class="fa fa-address-book fa-lg"></i> Contact</a>
-          </li>
-        </ul>
-        <span class="navbar-text align-right">
+      </button> -->
+
+    <!-- Small Logo -->
+    <a class="navbar-brand px-3" href="#">
+      <img src="img/4Foodies-logo.png" height="50" width="50" alt="4foodies logo" />
+    </a>
+
+    <!-- Hamburger Icon -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#4fNavbar"
+      aria-controls="4fNavbar" aria-expanded="false" aria-label="toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="4fNavbar">
+
+      <ul class="navbar-nav ml-auto text-uppercase">
+
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="about.html"><i class="fa fa-info fa-lg"></i>About</a>
+        </li>
+
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="recipes.html"><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i>
+            Recipes</a>
+        </li>
+
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="contactus.html"><i class="fa fa-address-book fa-lg"></i> Contact</a>
+        </li>
+
+      </ul>
+
+      <!-- <span class="navbar-text align-right">
           <a role="button" data-toggle="modal" data-target="#bookEvent"><i class="fa fa-calendar"></i> Events</a>
-        </span>
-        <a><img src="./img/4Foodies-logo.png" height="50" width="50" alt="foodiesLogo" /></a>
-      </div>
+        </span> -->
+
+      <!-- Events Button -->
+      <a href="events.html"><button class="btn btn-sm btn-dark text-uppercase mx-3" type="button">Events</button></a>
+
+      <!-- Small Logo -->
+      <!-- <a class="navbar-brand px-3" href="#">
+          <img src="img/4Foodies-logo.png" height="50" width="50" alt="4foodies logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#4fNavbar"></button> -->
+
     </div>
   </nav>
 
   <!-- Site Footer -->
   <footer>
     <div class="site-footer container-fluid fixed-bottom">
-  
+
       <!-- Links -->
       <nav class="nav nav-justified footer-nav mt-4 d-flex align-items-center justify-content-center nav-fill">
         <a class="nav-link" href="about.html">About</a>
         <a class="nav-link" href="#">Recipes</a>
-          <a class="nav-link" href="#"><img href="index.html" src="img/4Foodies-logo-white.png" width="100" height="100" /></a>
+        <a class="nav-link" href="#"><img src="img/4Foodies-logo-white.png" width="100" height="100" /></a>
         <a class="nav-link" href="#">Events</a>
         <a class="nav-link" href="contactus.html">Contact</a>
       </nav>
-  
+
       <!-- Contact Info -->
       <div class="row footer-contact mt-5">
         <div class="col-md text-center">
           <p class="mb-0">
-            <a href="tel:5555555555">(555) 555-5555</a> 
-            <span class="mx-2 text-white" style="font-family: Arial">|</span> 
-            <a href="mailto:info@4foodies.com">info@4foodies.com</a> 
-            </p>
+            <a href="tel:5555555555">(555) 555-5555</a>
+            <span class="mx-2 text-white" style="font-family: Arial">|</span>
+            <a href="mailto:info@4foodies.com">info@4foodies.com</a>
+          </p>
         </div>
       </div>
-  
+
       <!-- Social Media -->
       <div class="row footer-social mb-4">
         <div class="col text-center mx-auto">
@@ -103,10 +129,10 @@
           <a class="btn" href="http://youtube.com/"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
-  
+
     </div>
   </footer>
-  
+
 
   <!-- Query must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
