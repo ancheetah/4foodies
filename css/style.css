@@ -6,6 +6,7 @@ body {
     font-family: 'Maven Pro', Arial, sans-serif;
 }
 
+/* Header Styling */
 header {
     background: white;
 }
@@ -15,10 +16,43 @@ header hr {
     border-color: black;
 }
 
+/* Navbar */
+.navbar-light {
+    background-color: white !important;
+}
+.navbar {
+    text-transform: uppercase;
+}
+
+/* Footer Styling */
+.site-footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .site-footer {
+    background: black;
+  }
+  
+  .footer-nav {
+    text-transform: uppercase;
+    font-family: 'Maven Pro', Arial, sans-serif;
+    font-weight: 500;
+  }
+  
+  /* Social Media Icons */
+  .fab {
+    color: white;
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+
+
 /* .navbar-dark {
     background-color: #f5f0f7;
 } */
 
+/* Ingredients List */
 input[type=checkbox]:checked+label.strikethrough {
     text-decoration: line-through;
 }
