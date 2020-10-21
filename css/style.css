@@ -1,13 +1,13 @@
-.navbar {
+body {
+    font-family: 'Nanum Gothic Coding', courier-new, monospace;
+}
+
+.navbar, h1, h2, h3 {
     font-family:'Maven Pro', Arial, sans-serif ;
 }
 
 .navbar-dark {
     background-color: #f5f0f7;
-}
-
-.h2 {
-    font-family: "Nanum Gothic Coding", "courier-new", monospace;
 }
 
 input[type=checkbox]:checked + label.strikethrough{
