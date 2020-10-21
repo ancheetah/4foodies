@@ -18,7 +18,7 @@
 
 <body>
 
-    <!-- Site Header -->
+  <!-- Site Header -->
   <header>
 
     <div class="container-fluid">
@@ -30,8 +30,8 @@
 
             <!-- Logo -->
             <div class="col-auto">
-                <img src="img/4Foodies-logo.png" class="image-fluid my-3" width="150" height="150"
-                    alt="4foodies logo" />
+                <a href="index.html"><img src="img/4Foodies-logo.png" class="image-fluid my-3" width="150" height="150"
+                    alt="4foodies logo" /></a>
             </div>
 
             <div class="col">
@@ -48,7 +48,7 @@
 <nav class="navbar navbar-expand-sm navbar-light bg-white sticky-top mb-5">
 
     <!-- Small Logo -->
-    <a class="navbar-brand px-3" href="#">
+    <a class="navbar-brand px-3" href="index.html">
         <img src="img/4Foodies-logo.png" height="70" width="70" alt="4foodies logo" />
     </a>
 
@@ -88,52 +88,6 @@
 
     </div>
 </nav>
-
-  
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top mb-5">
-
-      <!-- Small Logo -->
-      <a class="navbar-brand px-3" href="#">
-          <img src="img/4Foodies-logo.png" height="70" width="70" alt="4foodies logo" />
-      </a>
-
-      <!-- Hamburger Icon -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#foodiesNavbar"
-          aria-controls="foodiesNavbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="foodiesNavbar">
-
-          <ul class="navbar-nav ml-auto text-uppercase">
-
-              <li class="nav-item mx-3">
-                  <a class="nav-link" href="about.html">About</a>
-              </li>
-
-              <li class="nav-item mx-3">
-                  <a class="nav-link" href="recipes.html"><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i>
-                      Recipes</a>
-              </li>
-
-              <li class="nav-item mx-3">
-                  <a class="nav-link" href="contactus.html">Contact</a>
-              </li>
-
-          </ul>
-
-          <!-- <span class="navbar-text align-right">
-        <a role="button" data-toggle="modal" data-target="#bookEvent"><i class="fa fa-calendar"></i> Events</a>
-      </span> -->
-
-          <!-- Events Button -->
-          <a href="events.html"><button class="events-btn btn btn-md btn-dark text-uppercase mx-3"
-                  type="button">Events</button></a>
-
-      </div>
-  </nav>
 
 
   <div class="container">
@@ -233,18 +187,18 @@
   </div>
 
   <!-- Site Footer -->
-  <footer>
+  <footer class="site-footer">
 
-    <div class="site-footer container-fluid mt-5 py-2">
+    <div class="container-fluid mt-5 py-2">
 
         <!-- Links -->
         <nav class="nav nav-justified footer-nav mt-4 d-flex align-items-center justify-content-center 
                 nav-fill text-uppercase d-flex flex-column flex-sm-row">
             <a class="nav-link mx-3" href="about.html">About</a>
-            <a class="nav-link mx-3" href="#">Recipes</a>
-            <a class="nav-link mx-3" id="footerLogo" href="#"><img src="img/4Foodies-logo-white.png" width="100"
+            <a class="nav-link mx-3" href="recipes.html">Recipes</a>
+            <a class="nav-link mx-3" id="footerLogo" href="index.html"><img src="img/4Foodies-logo-white.png" width="100"
                     height="100" /></a>
-            <a class="nav-link mx-3" href="#">Events</a>
+            <a class="nav-link mx-3" href="events.html">Events</a>
             <a class="nav-link mx-3" href="contactus.html">Contact</a>
         </nav>
 
@@ -274,7 +228,7 @@
 </footer>
 
 
-    <!-- Bootstrap Dependencies -->
+  <!-- Bootstrap Dependencies -->
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
