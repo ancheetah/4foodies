@@ -2,15 +2,23 @@ body {
     font-family: 'Nanum Gothic Coding', courier-new, monospace;
 }
 
-.navbar, h1, h2, h3 {
-    font-family:'Maven Pro', Arial, sans-serif ;
+.navbar,h1,h2,h3 {
+    font-family: 'Maven Pro', Arial, sans-serif;
 }
 
-.navbar-dark {
+header {
+    background: white;
+}
+
+header hr {
+    border-width: 2px 0;
+    border-color: black;
+}
+
+/* .navbar-dark {
     background-color: #f5f0f7;
-}
+} */
 
-input[type=checkbox]:checked + label.strikethrough{
-  text-decoration: line-through;
+input[type=checkbox]:checked+label.strikethrough {
+    text-decoration: line-through;
 }
-
