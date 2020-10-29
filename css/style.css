@@ -71,3 +71,12 @@ header hr {
 input[type=checkbox]:checked+label.strikethrough {
     text-decoration: line-through;
 }
+
+/* Bootstrap Card Styling */
+.card-columns .bg-dark {
+    background: black !important;
+}
+
+.card-title {
+    font-weight: bold;
+}
