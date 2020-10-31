@@ -1,8 +1,24 @@
+
 ![4Foodies Logo](/img/4Foodies-logo.png)
 
 # Portfolio Project Proposal
-### By Kadeja Cordova & AJ Ancheta
+### By [@kadeja101](https://github.com/kadeja101) & [@aancheetah](https://github.com/ancheetah)
 
+<br />
+
+### Note: This is a Bootstrap website that was developed with npm and node modules (not shown in repository) and has not yet been deployed. It uses the following dependencies:
+```
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+  ```
+  <br />
 
 ## Introduction
 
