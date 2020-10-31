@@ -81,7 +81,7 @@ input[type=checkbox]:checked+label.strikethrough {
     font-weight: bold;
 }
 
-.recipes-card {
+.recipes-card, #recipes-page .card-footer {
     background:black;
 }
 
@@ -92,6 +92,10 @@ input[type=checkbox]:checked+label.strikethrough {
 .contact-btn {
     background: black;
     border-color: black;
+}
+#recipes-page .card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 

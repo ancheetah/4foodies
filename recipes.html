@@ -1,352 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>4foodies</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
+  <title>4foodies</title>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/font-awesome/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="/css/style.css" />
-  </head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-  <body>
-    <!-- Site Header -->
-    <header>
-      <div class="container-fluid">
-        <div class="row h-auto d-flex align-items-center">
-          <div class="col">
-            <hr class="w-75 mr-0" />
-          </div>
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
 
-          <!-- Logo -->
-          <div class="col-auto">
-            <a href="index.html"
-              ><img
-                src="img/4Foodies-logo.png"
-                class="image-fluid my-3"
-                width="150"
-                height="150"
-                alt="4foodies logo"
-            /></a>
-          </div>
+<body>
+  <!-- Site Header -->
+  <header>
+    <div class="container-fluid">
+      <div class="row h-auto d-flex align-items-center">
+        <div class="col">
+          <hr class="w-75 mr-0" />
+        </div>
 
-          <div class="col">
-            <hr class="w-75 ml-0" />
-          </div>
+        <!-- Logo -->
+        <div class="col-auto">
+          <a href="index.html"><img src="img/4Foodies-logo.png" class="image-fluid my-3" width="150" height="150"
+              alt="4foodies logo" /></a>
+        </div>
+
+        <div class="col">
+          <hr class="w-75 ml-0" />
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-white sticky-top mb-5">
-      <!-- Small Logo -->
-      <a class="navbar-brand px-3" href="index.html">
-        <img
-          src="img/4Foodies-logo.png"
-          height="70"
-          width="70"
-          alt="4foodies logo"
-        />
-      </a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-white sticky-top mb-5">
+    <!-- Small Logo -->
+    <a class="navbar-brand px-3" href="index.html">
+      <img src="img/4Foodies-logo.png" height="70" width="70" alt="4foodies logo" />
+    </a>
 
-      <!-- Hamburger Icon -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#foodiesNavbar"
-        aria-controls="foodiesNavbar"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- Hamburger Icon -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#foodiesNavbar"
+      aria-controls="foodiesNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="foodiesNavbar">
-        <ul class="navbar-nav ml-auto text-uppercase">
-          <li class="nav-item mx-3">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="foodiesNavbar">
+      <ul class="navbar-nav ml-auto text-uppercase">
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
 
-          <li class="nav-item mx-3">
-            <a class="nav-link" href="recipes.html"
-              ><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> Recipes</a
-            >
-          </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="recipes.html"><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> Recipes</a>
+        </li>
 
-          <li class="nav-item mx-3">
-            <a class="nav-link" href="contactus.html">Contact</a>
-          </li>
-        </ul>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="contactus.html">Contact</a>
+        </li>
+      </ul>
 
-        <!-- <span class="navbar-text align-right">
+      <!-- <span class="navbar-text align-right">
           <a role="button" data-toggle="modal" data-target="#bookEvent"><i class="fa fa-calendar"></i> Events</a>
         </span> -->
 
-        <!-- Events Button -->
-        <a href="events.html"
-          ><button
-            class="events-btn btn btn-md btn-dark text-uppercase mx-3"
-            type="button"
-          >
-            Events
-          </button></a
-        >
-      </div>
-    </nav>
-
-    <!-- Recipes Page Content -->
-    <div>
-      <h1 class="text-center align-text recipes-header">Recipes</h1>
-      <hr />
+      <!-- Events Button -->
+      <a href="events.html"><button class="events-btn btn btn-md btn-dark text-uppercase mx-3" type="button">
+          Events
+        </button></a>
     </div>
+  </nav>
+
+  <!-- Recipes Page Content -->
+  <div class="container" id="recipes-page">
+
+    <h1 class="text-center align-text recipes-header">Recipes</h1>
+    <hr />
 
     <!-- Recipe Thumbnails -->
-    <div class="col-container">
-      <!-- Row 1 -->
-      <div class="row ml-4 p-2">
-        <div class="col-sm-6 col-md-4 d-flex align-items-stretch">
-          <div>
-            <img
-              class="card-img-top"
-              src="./img/Macaroni Bites.jpg"
-              alt="Macaroni Bites"
-            />
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 p-2">
+
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="./img/Macaroni Bites.jpg" alt="Macaroni Bites" />
             <div class="recipes-card card-body text-white">
               <h5 class="card-title">Macaroni Bites</h5>
               <p class="card-text">Cheesy flavorful bite size Mac & Cheese.</p>
-              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase"
-                >View Recipe</a
-              >
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase">View Recipe</a>
             </div>
           </div>
         </div>
-
-        <div class="col-sm-6 col-md-4 d-flex align-items-stretch">
-          <div>
-            <img
-              class="card-img-top"
-              src="./img/buffalo Wings.jpg"
-              alt="Buffalo Wings"
-            />
+  
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="./img/buffalo Wings.jpg" alt="Buffalo Wings" />
             <div class="recipes-card card-body text-white">
               <h5 class="card-title">Buffalo Wings</h5>
               <p class="card-text">
                 Ultra crispy chicken wings tossed in a classic spicy sauce.
               </p>
-              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase"
-                >View Recipe</a
-              >
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase">View Recipe</a>
             </div>
           </div>
         </div>
-
-        <div class="col-sm-6 col-md-4 d-flex align-items-stretch">
-          <div>
-            <img
-              class="card-img-top image-fluid"
-              src="./img/spinach dip.jpg"
-              alt="Spinach Dip"
-            />
+  
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top image-fluid" src="./img/spinach dip.jpg" alt="Spinach Dip" />
             <div class="recipes-card card-body text-white">
               <h5 class="card-title">Spinach & Artichoke Dip</h5>
               <p>Delicious cheesy spinach & artichoke dip.</p>
-              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase"
-                >View Recipe</a
-              >
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase">View Recipe</a>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Row 2 -->
-      <div class="row ml-4 p-2">
-        <div class="col-sm-6 col-md-4 d-flex align-items-stretch">
-          <div>
-            <img
-              class="card-img-top"
-              src="./img/Chicken-Parmesan Burger.jpg"
-              alt="Chicken Parmesan Burger"
-            />
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="./img/Chicken-Parmesan Burger.jpg" alt="Chicken Parmesan Burger" />
             <div class="recipes-card card-body text-white">
               <h5 class="card-title">Chicken-Parmesan Burger</h5>
               <p>
                 Chicken parmesan with a deliciously crispy coating, smothered in
                 a rich homemade tomato sauce and melted mozzarella cheese.
               </p>
-              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase"
-                >View Recipe</a
-              >
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase">View Recipe</a>
             </div>
           </div>
         </div>
-
-        <div class="col-sm-6 col-md-4 d-flex align-items-stretch">
-          <div>
-            <img
-              class="card-img-top"
-              src="./img/Shrimp Alfredo.jpg"
-              alt="Shrimp Alfredo Pasta"
-            />
+  
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="./img/Shrimp Alfredo.jpg" alt="Shrimp Alfredo Pasta" />
             <div class="recipes-card card-body text-white">
               <h5 class="card-title">Shrimp Alfredo Pasta</h5>
               <p>
                 Shrimp Alfredo made with homemade Alfredo Sauce, fettuccine, and
                 juicy Parmesan Coated Shrimp.
               </p>
-              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase"
-                >View Recipe</a
-              >
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase">View Recipe</a>
             </div>
           </div>
         </div>
-
-        <div class="col-sm-6 col-md-4 d-flex align-items-stretch">
-          <div>
-            <img
-              class="card-img-top"
-              src="./img/Tofu-taco.jpg"
-              alt="Street Tofu Tacos"
-            />
+  
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="./img/Tofu-taco.jpg" alt="Street Tofu Tacos" />
             <div class="recipes-card card-body text-white">
               <h5 class="card-title">Street Tofu Tacos</h5>
               <p>
                 Plant based Tofu Tacos lightly spicy, crumbly (in a good way).
               </p>
-              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase"
-                >View Recipe</a
-              >
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase">View Recipe</a>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Row 3 -->
-      <div class="row ml-4 p-2">
-        <div class="col-sm-6 col-md-4 d-flex align-items-stretch">
-          <div>
-            <img
-              class="card-img-top"
-              src="./img/Strawberry Cheesecake Minis.jpg"
-              alt="Strawberry Cheesecake"
-            />
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="./img/Strawberry Cheesecake Minis.jpg" alt="Strawberry Cheesecake" />
             <div class="recipes-card card-body text-white">
               <h5 class="card-title">Strawberry Cheesecake Mini's</h5>
               <p>
                 Delicious mini cheesecake that are creamy and full of fresh
                 strawberries.
               </p>
-              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase"
-                >View Recipe</a
-              >
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase">View Recipe</a>
             </div>
           </div>
         </div>
-
-        <div class="col-sm-6 col-md-4 d-flex align-items-stretch">
-          <div>
+  
+        <div class="col">
+          <div class="card">
             <img class="card-img-top" src="./img/Brownies.jpg" alt="Brownies" />
             <div class="recipes-card card-body text-white">
               <h5 class="card-title">Double Fudge Brownie</h5>
               <p>Double fudge cocoa brownies that are chewy and fudgy.</p>
-              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase"
-                >View Recipe</a
-              >
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase">View Recipe</a>
             </div>
           </div>
         </div>
-
-        <div class="col-sm-6 col-md-4 d-flex align-items-stretch">
-          <div>
-            <img
-              class="card-img-top"
-              src="./img/Apple pie.jpg"
-              alt="Apple Pie"
-            />
+  
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="./img/Apple pie.jpg" alt="Apple Pie" />
             <div class="recipes-card card-body text-white">
               <h5 class="card-title">Apple Pie</h5>
               <p class="card-text">
                 An apple pie with a flaky buttery pie crust and a sweet apple
                 pie filling
               </p>
-              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase"
-                >View Recipe</a
-              >
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a href="recipes-template.html" class="btn btn-sm btn-recipe text-uppercase">View Recipe</a>
             </div>
           </div>
         </div>
       </div>
+
     </div>
 
-    <!-- Site Footer -->
-    <footer class="site-footer mt-5">
-      <div class="container-fluid py-2">
-        <!-- Links -->
-        <nav
-          class="nav nav-justified footer-nav mt-4 d-flex align-items-center justify-content-center nav-fill text-uppercase d-flex flex-column flex-sm-row"
-        >
-          <a class="nav-link mx-3" href="about.html">About</a>
-          <a class="nav-link mx-3" href="recipes.html">Recipes</a>
-          <a class="nav-link mx-3" id="footerLogo" href="index.html"
-            ><img src="img/4Foodies-logo-white.png" width="100" height="100"
-          /></a>
-          <a class="nav-link mx-3" href="events.html">Events</a>
-          <a class="nav-link mx-3" href="contactus.html">Contact</a>
-        </nav>
+  </div>
 
-        <!-- Contact Info -->
-        <div class="row footer-contact mt-5">
-          <div class="col text-center">
-            <p class="mb-0">
-              <a href="tel:5555555555">(555) 555-5555</a>
-              <span class="mx-2 text-white" style="font-family: Arial">|</span>
-              <a href="mailto:info@4foodies.com">info@4foodies.com</a>
-            </p>
-          </div>
-        </div>
+  <!-- Site Footer -->
+  <footer class="site-footer mt-5">
+    <div class="container-fluid py-2">
+      <!-- Links -->
+      <nav
+        class="nav nav-justified footer-nav mt-4 d-flex align-items-center justify-content-center nav-fill text-uppercase d-flex flex-column flex-sm-row">
+        <a class="nav-link mx-3" href="about.html">About</a>
+        <a class="nav-link mx-3" href="recipes.html">Recipes</a>
+        <a class="nav-link mx-3" id="footerLogo" href="index.html"><img src="img/4Foodies-logo-white.png" width="100"
+            height="100" /></a>
+        <a class="nav-link mx-3" href="events.html">Events</a>
+        <a class="nav-link mx-3" href="contactus.html">Contact</a>
+      </nav>
 
-        <!-- Social Media -->
-        <div class="row footer-social mb-4">
-          <div class="col text-center mx-auto">
-            <a class="btn" href="http://instagram.com/" target="blank_"
-              ><i class="fa fab fa-instagram"></i
-            ></a>
-            <a class="btn" href="http://facebook.com/" target="blank_"
-              ><i class="fa fab fa-facebook"></i
-            ></a>
-            <a class="btn" href="http://twitter.com/" target="blank_"
-              ><i class="fa fab fa-twitter"></i
-            ></a>
-            <a class="btn" href="http://youtube.com/"
-              ><i class="fa fab fa-youtube"></i
-            ></a>
-          </div>
+      <!-- Contact Info -->
+      <div class="row footer-contact mt-5">
+        <div class="col text-center">
+          <p class="mb-0">
+            <a href="tel:5555555555">(555) 555-5555</a>
+            <span class="mx-2 text-white" style="font-family: Arial">|</span>
+            <a href="mailto:info@4foodies.com">info@4foodies.com</a>
+          </p>
         </div>
       </div>
-    </footer>
 
-    <!-- Bootstrap Dependencies -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+      <!-- Social Media -->
+      <div class="row footer-social mb-4">
+        <div class="col text-center mx-auto">
+          <a class="btn" href="http://instagram.com/" target="blank_"><i class="fa fab fa-instagram"></i></a>
+          <a class="btn" href="http://facebook.com/" target="blank_"><i class="fa fab fa-facebook"></i></a>
+          <a class="btn" href="http://twitter.com/" target="blank_"><i class="fa fab fa-twitter"></i></a>
+          <a class="btn" href="http://youtube.com/"><i class="fa fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Dependencies -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>
