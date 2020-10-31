@@ -80,3 +80,22 @@ input[type=checkbox]:checked+label.strikethrough {
 .card-title {
     font-weight: bold;
 }
+
+.recipes-card {
+    background:black;
+}
+
+.btn-recipe {
+    Background:white;
+    border-color:black;
+}
+.contact-btn {
+    background: black;
+    border-color: black;
+}
+
+
+
+
+
+
