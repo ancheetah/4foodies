@@ -1,0 +1,119 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+/* 4Foodies Stylesheet */
+
+body {
+    font-family: 'Nanum Gothic Coding', courier-new, monospace;
+}
+
+.navbar,
+h1,
+h2,
+h3, 
+h4 {
+    font-family: 'Maven Pro', Arial, sans-serif;
+    padding-bottom: 1rem;
+}
+
+/* Header Styling */
+header {
+    background: white;
+}
+
+header hr {
+    border-width: 2px 0;
+    border-color: black;
+}
+
+/* Navbar */
+.events-btn {
+    background: black;
+    border-color: black;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Icons */
+.fa {
+    color: black;
+}
+
+/* Footer Styling */
+.site-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.site-footer {
+    background: black;
+    padding: 30px 0;
+}
+
+.footer-nav {
+    font-family: 'Maven Pro', Arial, sans-serif;
+    font-weight: 500;
+}
+
+@media (max-width: 700px) { 
+    #footerLogo, hr {
+        display: none;
+    }
+ }
+
+/* Social Media Icons */
+.fab {
+    color: white;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+/* Ingredients List */
+input[type=checkbox]:checked+label.strikethrough {
+    text-decoration: line-through;
+}
+
+/* Bootstrap Card Styling */
+.card-columns .bg-dark {
+    background: black !important;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.recipes-card, #recipes-page .card-footer {
+    background:black;
+}
+
+.btn-recipe {
+    Background:white;
+    border-color:black;
+}
+.contact-btn {
+    background: black;
+    border-color: black;
+}
+#recipes-page .card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Bootstrap Card Styling */
+.card-columns {
+
+    // Responsive Font Sizes
+    $enable-responsive-font-sizes: true;
+
+    @include media-breakpoint-only(sm) {
+        column-count: 2;
+    }
+
+    @include media-breakpoint-only(md) {
+        column-count: 3;
+    }
+
+}
